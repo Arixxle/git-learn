@@ -40,11 +40,8 @@ $ ssh-keygen
 ![](https://i.imgur.com/WlJiAfG.png)
 
 把id_rsa.pub（公鑰）用$cat 印出來，把內容貼到你要使用的服務中，allow write access
-![](https://i.imgur.com/w376ZRy.png)
 
 生成成功，接著就可以去push專案了
-![](https://i.imgur.com/F7b6qtw.png)
-
 
 git push -u origin master
 -u 做一次遠端跟本地連結
